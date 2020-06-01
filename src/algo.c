@@ -33,9 +33,7 @@ t_path		*get_next_room(t_stuff *u, int i)
 {
 	int		index;
 	t_path	*new;
-	int		j;
 
-	j = 0;
 	index = 1;
 	new = 0;
 	while (check_pre_room(u, index) || u->solve[i][index] == 0)
@@ -58,13 +56,11 @@ t_path		*get_next_room(t_stuff *u, int i)
 
 int			get_path(t_stuff *u)
 {
-	t_path	*temp;
 	int		index;
 
 	initialize_var(u);
 	while (u->curr->current_room != u->room_num)
 	{
-		temp = u->path;
 		index = u->curr->current_room;
 		u->curr->next = get_next_room(u, index);
 		if (u->curr->next == 0)

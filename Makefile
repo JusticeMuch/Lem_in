@@ -2,7 +2,7 @@ NAME = lem-in
 
 FLAGS = -Wall -Wextra -Werror -I
 
-CC = clang -o
+CC = gcc -o
 
 SRC= ./src/*.c
 

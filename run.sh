@@ -44,19 +44,3 @@ echo "\x1B[32msubject-4.map\x1B[0m"
 ./lem-in <maps/subject-4.map
 echo "\x1B[32msubject-5.map\x1B[0m"
 ./lem-in <maps/subject-5.map
-echo "\x1B[32msubjet 1\x1B[0m"
-./lem-in <maps/subjet1.map
-echo "\x1B[32msubjet 2\x1B[0m"
-./lem-in <maps/subjet2.map
-echo "\x1B[32msubjet 3\x1B[0m"
-./lem-in <maps/subjet3.map
-echo "\x1B[32mval 1\x1B[0m"
-./lem-in <maps/valid1.map
-echo "\x1B[32mval 2\x1B[0m"
-./lem-in <maps/valid2.map
-echo "\x1B[32mval 3\x1B[0m"
-./lem-in <maps/valid3.map
-echo "\x1B[32mval 4\x1B[0m"
-./lem-in <maps/valid4.map
-echo "\x1B[32mval 5\x1B[0m"
-./lem-in <maps/valid5.map
